@@ -1,0 +1,37 @@
+{
+  "name": "@opencode-ai/plugin-inject-session-id",
+  "version": "1.0.0",
+  "description": "OpenCode plugin that injects the session ID into the OPENCODE_SESSION_ID environment variable",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    "./server": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "prepublishOnly": "bun run build"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.14.48"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "session",
+    "environment"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hskksk/opencode-inject-session-id"
+  }
+}
