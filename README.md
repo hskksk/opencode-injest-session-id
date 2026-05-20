@@ -1,4 +1,4 @@
-# @opencode-ai/plugin-inject-session-id
+# @hskksk/opencode-inject-session-id
 
 OpenCode plugin that injects the session ID into the `OPENCODE_SESSION_ID` environment variable.
 
@@ -9,7 +9,7 @@ Add this plugin to your OpenCode configuration to make the current session ID av
 ## Installation
 
 ```bash
-npm install @opencode-ai/plugin-inject-session-id
+npm install @hskksk/opencode-inject-session-id
 ```
 
 ## Development
