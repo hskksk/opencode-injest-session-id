@@ -1,10 +1,11 @@
 {
   "name": "@hskksk/opencode-inject-session-id",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "OpenCode plugin that injects the session ID into the OPENCODE_SESSION_ID environment variable",
   "type": "module",
   "main": "./dist/index.js",
   "exports": {
+    ".": "./dist/index.js",
     "./server": "./dist/index.js"
   },
   "files": [
